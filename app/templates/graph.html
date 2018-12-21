@@ -4,6 +4,11 @@
   graph - {{ super() }}
 {% endblock %}
 
+{% block scripts %}
+  {{ super() }}
+  <script type="text/javascript" src="../static/js/graph.js"></script>
+{% endblock %}
+
 {% block app_content %}
   <div class="container">
      <div class="row">

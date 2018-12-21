@@ -5,5 +5,12 @@
   {% endblock %}
 
   {% block app_content %}
-    <h1>Home</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <figure id="world_map">
+            <embed type="image/svg+xml" src="../static/graph_images/world_map.svg" />
+        </div>
+      </div>
+    </div>
   {% endblock %}
